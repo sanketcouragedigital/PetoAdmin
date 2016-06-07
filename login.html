@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Log in</title>
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <!-- Bootstrap 3.3.5 -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="bootstrap/font-awesome-4.5.0/css/font-awesome.min.css">
+    <!-- Ionicons -->
+		<link rel="stylesheet" href="bootstrap/css/ionicons.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="dist/css/AdminLTE.min.css">
+
+	<!--<script src="plugins/jQuery/jQuery-2.1.4.min.js"></script>-->
+	<script src="plugins/jQuery/jquery-1.9.1.js"></script>
+	<script src="js/jquery/jquery.cookie.js"></script>
+	<script src="js/jquery/jquery.validate.js"></script>
+  <script src="js/urlenvironment.js"></script>
+	<script src="js/login.js"></script>
+
+  </head>
+	<body class="hold-transition login-page">
+		<div class="login-box">
+			<div class="login-logo">
+				<img src="images/peto.png" height="110px">
+			</div>
+			<div class="login-box-body" id="authentication">
+				<p class="login-box-msg"><b></b></p>
+
+				<form id="loginForm">
+					<div class="email form-group has-feedback">
+						<input type="email" id="email" name="email" class="form-control" placeholder="Email">
+						<span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+						<label class="Error"></label>
+					</div>
+					<div class="password form-group has-feedback">
+						<input type="password" id="password" name="password" class="form-control" placeholder="Password">
+						<span class="glyphicon glyphicon-lock form-control-feedback"></span>
+						<label class="Error"></label>
+					</div>
+					<div class="row">
+						<div class="col-xs-8">
+              <div class="col-xs-8">
+							<div class="checkbox icheck">
+								<label>
+									<input type="checkbox" name="remember" value="remember" id="remember"> Remember Me
+								</label>
+							</div>
+              </div>
+						</div>
+						<div class="col-xs-4">
+							<input type="submit" id="loginSubmit" class="submit btn btn-primary btn-block btn-flat" value="Sign In">
+						</div>
+					</div>
+				</form>
+				<a href="forgotPassword.html" id="forgotPassword">I forgot my password</a><br>
+				<a href="registration.html" class="text-center" id="registrationLink">Register Your Self</a>
+			</div>
+		</div>
+		<!-- Bootstrap 3.3.5 -->
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+		<!-- iCheck -->
+		<script src="plugins/iCheck/icheck.min.js"></script>
+	</body>
+</html>
